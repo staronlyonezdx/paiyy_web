@@ -1,0 +1,105 @@
+.new_tit{
+    margin-top: 80px;
+    height: 50px;
+    line-height: 50px;
+}
+.new_tit p{
+    color:#333333;
+    font-size: 13px;
+}
+.new_tit p span{
+    padding:0 10px;
+    color:#333333;
+    font-size: 13px;
+
+}
+
+.new_main h2{
+    font-size: 28px;
+    color:#000000;
+    display: inline;
+}
+.new_main span{
+    color:#F75A24;
+    font-size: 20px;
+    margin-left: 31px;
+}
+.recruitment_details_hint{
+    color:#666666;
+    font-size: 14px;
+    margin-top: 27px;
+}
+.recruitment_details_hint small{
+    color:#666666;
+    font-size: 14px;
+    padding:0 20px;
+    font-weight: 600;
+}
+.recruitment_details_hint small:first-child{
+    padding-left: 0;
+}
+.recruitment_details_tit{
+    margin-top: 49px;
+    color:#000000;
+    font-size: 18px;
+    font-weight: 600;
+}
+.recruitment_details_line{
+    width:30px;
+    height:4px;
+    background:#FFE500 ;
+    margin-top: 15px;
+}
+.recruitment_details_text{
+    margin-top: 32px;
+}
+.recruitment_details_text p{
+    font-family:PingFang SC ;
+    color:#666666;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 600;
+}
+.recruitment_details_call{
+    width:370px;
+    height:70px;
+    background:#FFE500 ;
+    border-radius: 9px;
+    margin:0 auto;
+    margin-top: 59px;
+    text-align: center;
+    line-height: 70px;
+    color:#030303;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+@media only screen and (min-device-width: 320px)and (-webkit-min-device-pixel-ratio: 2) {
+    /*针对iPhone 4, 5c,5s, 所有iPhone6的放大模式，个别iPhone6的标准模式*/
+   .recruitment_details_call{
+       width: 100%;
+   }
+
+}
+@media only screen and (min-device-width: 375px)and (-webkit-min-device-pixel-ratio: 2) {
+    /*针对大多数iPhone6的标准模式*/
+    .recruitment_details_call{
+        width: 100%;
+    }
+
+}
+
+@media only screen and (min-device-width: 375px)and (-webkit-min-device-pixel-ratio: 3) {
+    /*针对所有iPhone6+的放大模式*/
+    .recruitment_details_call{
+        width: 100%;
+    }
+
+}
+@media only screen and (min-device-width:412px) and (-webkit-min-device-pixel-ratio: 3) {
+    /*针对所有iPhone6+的标准模式,414px写为412px是由于三星Nexus 6为412px，可一并处理*/
+    .recruitment_details_call{
+        width: 100%;
+    }
+
+}

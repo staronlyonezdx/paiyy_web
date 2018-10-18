@@ -1,0 +1,402 @@
+.home {
+    /*background-color: #FFEB37;*/
+    background: url(../image/index/BG@2x.png) center center;
+    background-size: 100% 100%;
+    margin-top: 80px;
+}
+
+.navbar-default {
+    background-color: #FFEB37;
+    height: 80px;
+}
+
+#header .container {
+    margin-top: 10px;
+}
+
+.navbar {
+    border: none;
+}
+
+.nav_bar_item a span {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+    line-height: 42px;
+}
+
+.navbar-default.active {
+    background-color: #fff;
+}
+
+
+.phone {
+    width: 515px;
+    height: 768px;
+   background: url("../image/index/iphone@2x.png") no-repeat center center;
+    background-size: 100% 100%;
+    /*margin-right: 10px;*/
+}
+
+#content .download .download_img {
+    width: 496px;
+    height: 39px;
+    margin-top: 100px;
+    background: url("../image/index/biaoti@2x.png") no-repeat center center;
+    background-size: 100% 100% ;
+
+}
+
+#content .download p {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 100;
+    color: rgba(0, 0, 0, 1);
+    line-height: 70px;
+}
+
+#content .download .row_item {
+    text-align: center;
+}
+
+#content .download .row_item:last-child(1) {
+    margin-right: 0;
+}
+
+#content .download .download_item .download_item_title h3 {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 1);
+    line-height: 70px;
+}
+
+#content .download .download_item img {
+    width: 170px;
+    height: 170px;
+
+}
+#footer {
+    background-color: #2B2B2B;
+    width: 100%;
+}
+
+#footer .hezuo {
+    width: 360px;
+    height: 24px;
+    margin: 49px auto;
+}
+
+#footer .hezuo_item {
+    width: 1153px;
+    height: 61px;
+    margin: 0 auto;
+    background: url("../image/index/icon_hezuoimg@2x.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+#footer span {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    line-height: 24px;
+    margin-right: 20px;
+    float: left;
+}
+
+#footer .beian_info {
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+#footer .beian_info span:nth-child(2) {
+    margin-right: 250px;
+}
+
+.home_hint {
+    width: 30px;
+    height: 10px;
+    margin: 0 auto;
+    background: #fff;
+    margin-top: -20px;
+    /*display: none;*/
+}
+
+.home_hint_color {
+    background: #FFE500;
+}
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: black;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
+    background: none;
+}
+.navbar-toggle img{
+    width: 17px;
+    height: 17px;
+    display: block;
+}
+.navbar-toggle .index_close{
+    display: none;
+}
+.navbar-collapse{
+    border:none;
+}
+@media (max-width: 768px) {
+
+    .navbar-collapse{
+        border:none;
+    }
+    .navbar-nav{
+        background-color: white;
+        text-align: center;
+    }
+    .home_hint{
+    background-color: #FFEB37;
+    }
+    .phone{
+        margin: 0 auto;
+    }
+    .download{
+        margin: 0 auto;
+    }
+    #content .download .download_img{
+        margin: 0 auto;
+    }
+    #content .download p{
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) {
+    .index_content {
+        min-width: 1200px;
+        background: none;
+        background-size: 100% 100%;
+        overflow: hidden;
+    }
+
+
+}
+
+@media (max-width: 576px) {
+.phone{
+    width: 100%;
+    height: 768px;
+    margin: 0 auto;
+}
+    .download_img{
+        margin: 0 auto;
+    }
+    #content{
+        margin-bottom: 200px;
+    }
+   #content .download p {
+       text-align: center;
+       /*font-size: 24px;*/
+    }
+    #footer .hezuo_item{
+        width: 100%;
+        background: url("../image/index/icon_hezuo1.png") no-repeat center center;
+    }
+    .nav_bar_item{
+        text-align: center;
+    }
+    .navbar-nav{
+        background-color: white;
+    }
+    .home_hint{
+        background-color:#FFE500;
+    }
+    .navbar-collapse{
+        border:none;
+    }
+    #content .download .download_img{
+        margin: 0 auto;
+    }
+    #content .download p{
+        text-align: center;
+    }
+}
+@media only screen and (min-device-width: 320px){
+/*针对iPhone 3*/
+}
+
+@media only screen and (min-device-width: 320px)and (-webkit-min-device-pixel-ratio: 2) {
+/*针对iPhone 4, 5c,5s, 所有iPhone6的放大模式，个别iPhone6的标准模式*/
+    .phone{
+        width: 320px;
+        height: 480px;
+        margin: 0 auto;
+    }
+
+    #content .download .download_img{
+        margin: 0 auto;
+        width: 100%;
+        background: url("../image/index/silougen.png") no-repeat center center;
+    }
+    #content .download p {
+        text-align: center;
+        font-size: 18px;
+    }
+    #content {
+        margin-bottom: 200px;
+    }
+
+    #footer .hezuo_item{
+        width: 100%;
+        background: url("../image/index/icon_hezuo1.png") no-repeat center center;
+    }
+
+    #footer .beian_info{
+        width: 100%;
+    }
+    #footer .beian_info span{
+        width: 100%;
+    }
+    .nav_bar_item{
+        text-align: center;
+    }
+    .navbar-nav{
+        background-color: white;
+    }
+    .home_hint{
+        background-color:#FFE500;
+    }
+    .navbar-collapse{
+        border:none
+    }
+}
+@media only screen and (min-device-width: 375px)and (-webkit-min-device-pixel-ratio: 2) {
+/*针对大多数iPhone6的标准模式*/
+    .phone{
+
+        width: 366px;
+        height: 600px;
+        margin: 0 auto;
+    }
+    #content .download .download_img{
+        margin: 0 auto;
+        background: url("../image/index/silougen.png") no-repeat center center;
+    }
+    #content .download p {
+        text-align: center;
+
+    }
+    #content {
+        margin-bottom: 200px;
+    }
+    #footer .hezuo_item{
+        width: 100%;
+        background: url("../image/index/icon_hezuo1.png") no-repeat center center;
+    }
+
+    #footer .beian_info{
+        width: 100%;
+    }
+    #footer .beian_info span{
+        width: 100%;
+    }
+    .nav_bar_item{
+        text-align: center;
+    }
+    .navbar-nav{
+        background-color: white;
+    }
+    .home_hint{
+        background-color:#FFE500;
+    }
+    .navbar-collapse{
+        border:none
+    }
+}
+
+@media only screen and (min-device-width: 375px)and (-webkit-min-device-pixel-ratio: 3) {
+/*针对所有iPhone6+的放大模式*/
+    .phone{
+        width: 366px;
+        height: 600px;
+        margin: 0 auto;
+    }
+
+
+    #content .download .download_img{
+        margin: 0 auto;
+        width: 100%;
+        background: url("../image/index/silougen.png") no-repeat center center;
+    }
+    #content .download p {
+        text-align: center;
+    }
+    #content {
+        margin-bottom: 200px;
+    }
+    #footer .hezuo_item{
+        width: 100%;
+        background: url("../image/index/icon_hezuo1.png") no-repeat center center;
+    }
+
+    #footer .beian_info{
+        width: 100%;
+    }
+    #footer .beian_info span{
+        width: 100%;
+    }
+    .nav_bar_item{
+        text-align: center;
+    }
+    /*.navbar-nav{*/
+        /*background-color: white;*/
+    /*｝*/
+
+    .home_hint{
+        background-color:#FFE500;
+    }
+    .navbar-collapse{
+        border:none
+    }
+}
+@media only screen and (min-device-width:412px) and (-webkit-min-device-pixel-ratio: 3) {
+/*针对所有iPhone6+的标准模式,414px写为412px是由于三星Nexus 6为412px，可一并处理*/
+    .phone{
+        width: 366px;
+        height: 600px;
+        margin: 0 auto;
+    }
+
+
+    #content .download .download_img{
+        margin: 0 auto;
+        width: 100%;
+        background: url("../image/index/silougen.png") no-repeat center center;
+    }
+    #content .download p {
+        text-align: center;
+    }
+    #content {
+        margin-bottom: 200px;
+    }
+    #footer .hezuo_item{
+        width: 100%;
+        background: url("../image/index/icon_hezuo1.png") no-repeat center center;
+    }
+
+    #footer .beian_info{
+        width: 100%;
+    }
+    #footer .beian_info span{
+        width: 100%;
+    }
+    .nav_bar_item{
+        text-align: center;
+    }
+    .navbar-nav{
+        background-color: white;
+    }
+    .home_hint{
+        background-color:#FFE500;
+    }
+    .navbar-collapse{
+        border:none
+    }
+}
