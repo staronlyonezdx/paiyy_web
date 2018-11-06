@@ -35,9 +35,9 @@
 }
 .newdetails_main .newdetails_content img{
     width: 50%;
-    height: 200px;
+    /*height: 200px;*/
     display: block;
-    background-color: red;
+    /*background-color: red;*/
     margin: 0 auto;
 }
 .newdetails_main p span{
@@ -80,16 +80,16 @@
 
 @media only screen and (min-device-width: 320px){
     /*针对iPhone 3*/
-    .news_content{
-        width: 50%;
-        height: 100%;
-        display: block;
-        overflow: hidden;
-        white-space: nowrap;
-        text-overflow: ellipsis;
-        float: right;
+    /*.news_content{*/
+        /*width: 50%;*/
+        /*height: 100%;*/
+        /*display: block;*/
+        /*overflow: hidden;*/
+        /*white-space: nowrap;*/
+        /*text-overflow: ellipsis;*/
+        /*float: right;*/
 
-    }
+    /*}*/
 }
 
 @media only screen and (min-device-width: 320px)and (-webkit-min-device-pixel-ratio: 2) {
