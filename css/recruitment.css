@@ -72,7 +72,6 @@
         width: 100%;
         margin: 20px auto 0;
     }
-
     #pagination {
         display: none;
     }
@@ -87,6 +86,8 @@
         font-size: 12px;
     }
 }
+
+
 
 @media screen and (max-width: 768px) {
     .content_rec_item {
@@ -277,13 +278,13 @@
 @media only screen and (min-device-width: 375px){
     .rec_item_station {
         font-size: 13px;
-        text-align: left;
-        margin-left: 28px;
+        text-align: center;
+        /*margin-left: 28px;*/
     }
     .rec_item_info{
         font-size: 12px;
-        text-align: left;
-        margin-left: 28px;
+        text-align: center;
+        /*margin-left: 28px;*/
     }
 }
 @media only screen and (min-device-width: 375px)and (-webkit-min-device-pixel-ratio: 3) {
