@@ -144,7 +144,7 @@
                         <img src="image/index/icon_hezuo@2x.png" alt="">
                     </div>
                     <div class="hezuo_item">
-                        <!--<img src="image/index/icon_hezuoimg@2x2.png" alt="">-->
+                        <img src="image/index/icon_hezuoimg@2x1.png" alt="">
                     </div>
 
                     <div class="beian_info">
@@ -168,6 +168,28 @@
 
 <script type="text/javascript" src="js/paging.js"></script>
 <script src="js/index.js"></script>
+<script>
+    function goPAGE() {
+        if ((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))) {
+            /*window.location.href="你的手机版地址";*/
+            // alert("mobile")
 
+            $('.hezuo_item img').attr('src','image/index/icon_hezuo@2x1.png')
+
+
+        }
+        else {
+
+            /*window.location.href="你的电脑版地址";    */
+            // alert("pc")
+            // $('.nav_bar_item').css({
+            //     'width':'120px',
+            //     'height':'80px'
+            // })
+            $('.hezuo_item img').attr('src','image/index/icon_hezuoimg@2x1.png')
+        }
+    }
+    goPAGE();
+</script>
 </body>
 </html>

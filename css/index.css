@@ -102,8 +102,12 @@
     width: 1153px;
     height: 61px;
     margin: 0 auto;
-    background: url("../image/index/icon_hezuoimg@2x1.png") no-repeat center center;
-    background-size: 100% 100%;
+    /*background: url("../image/index/icon_hezuoimg@2x1.png") no-repeat center center;*/
+    /*background-size: 100% 100%;*/
+}
+#footer .hezuo_item img{
+    width: 100%;
+    height: 100%;
 }
 
 #footer span {
@@ -270,8 +274,11 @@
     }
 
     #footer .hezuo_item {
-        width: 100%;
-        background: url("../image/index/icon_hezuo@2x1.png") no-repeat center center;
+        width: 400px;
+        height: 40px;
+        margin-left: 20px;
+        /*background: url("../image/index/icon_hezuo@2x1.png") no-repeat center center;*/
+        /*background-size: 100% 100%;*/
     }
 
     .nav_bar_item {
@@ -343,8 +350,11 @@
     }
 
     #footer .hezuo_item {
-        width: 100%;
-        background: url("../image/index/icon_hezuo@2x1.png") no-repeat center center;
+        width: 314px;
+        height: 34px;
+
+        /*background: url("../image/index/icon_hezuo@2x1.png") no-repeat center center;*/
+        /*background-size: 100% 100%;*/
     }
 
     #footer .beian_info {
@@ -378,7 +388,8 @@
     }
 
     #footer .hezuo_item {
-        width: 320px;
+        width: 314px;
+        height: 34px;
         margin-left: -15px;
     }
     .beian_info{
@@ -395,7 +406,7 @@
 }
 @media only screen and (min-device-width: 360px){
     #footer .hezuo_item {
-        width: 100%;
+
         margin-left: 0;
     }
 
@@ -424,9 +435,11 @@
     }
 
     #footer .hezuo_item {
-        width: 100%;
-        background: url("../image/index/icon_hezuo@2x1.png") no-repeat center center;
-        margin-left: 0;
+        width: 314px;
+        height: 34px;
+        /*background: url("../image/index/icon_hezuo@2x1.png") no-repeat center center;*/
+        margin-left: 20px;
+        /*background-size: 100% 100%;*/
     }
 
     #footer .beian_info {
@@ -493,9 +506,11 @@
     }
 
     #footer .hezuo_item {
-        width: 100%;
-        background: url("../image/index/icon_hezuo@2x1.png") no-repeat center center;
-
+        width: 314px;
+        height: 34px;
+        margin-left: 20px;
+        /*background: url("../image/index/icon_hezuo@2x1.png") no-repeat center center;*/
+        /*background-size: 100% 100%;*/
     }
 
     #footer .beian_info {
@@ -561,8 +576,11 @@
     }
 
     #footer .hezuo_item {
-        width: 100%;
-        background: url("../image/index/icon_hezuo@2x1.png") no-repeat center center;
+        width: 314px;
+        height: 34px;
+        margin-left: 20px;
+        /*background: url("../image/index/icon_hezuo@2x1.png") no-repeat center center;*/
+        /*background-size: 100% 100%;*/
     }
 
     #footer .beian_info {
