@@ -156,6 +156,7 @@
         overflow: hidden;
         text-overflow:ellipsis;
         white-space: nowrap;
+        font-size: 16px;
     }
     .new_item_detail small{
         /*width: 100%;*/

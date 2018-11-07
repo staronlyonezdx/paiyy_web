@@ -10,7 +10,7 @@
     <!-- 目前仅限360急速浏览 webkit:急速  ie-comp:ie兼容模式   ie-stand: ie标准模式 -->
     <title>关于我们</title>
     <!-- Bootstrap中文字体版 -->
-    <link href="http://www.clantrip.com/static/bootstrap-font/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/aboutyaya.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -20,11 +20,9 @@
     <!--<script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>-->
     <![endif]-->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="http://www.clantrip.com/static/js/jquery.min.js"></script>
+    <script src="js/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="http://www.clantrip.com/static/bootstrap-font/js/bootstrap.min.js"></script>
-    <script type="text/javascript"
-            src="http://api.map.baidu.com/api?v=2.0&ak=Lf9r2HoP1Q7LSoc56LUKC74Ehlm5OQGv"></script>
+    <script src="js/bootstrap.min.js"></script>
 
 </head>
 <body>
@@ -41,7 +39,7 @@
                         <!--<span class="icon-bar"></span>-->
                         <!--<span class="icon-bar"></span>-->
                         <img src="image/index/Icon_more@2x.png" alt="" class="index_more">
-                        <img src="image/index/icon_more1@2x.png" alt="" class="index_close">
+                        <img src="image/index/Icon_more1@2x.png" alt="" class="index_close">
                     </div>
                     <!--<div class="navbar-toggle">-->
                     <!--<img src="image/index/icon_more1@2x.png" alt="">-->
@@ -121,8 +119,8 @@
                     <!--<div class="about_img"></div>-->
                     <img src="image/index/icon_imp@2x.png" alt="" style="width:100%">
                     <div class="topaiyaya">
-                        <a href="https://m.paiyy.com.cn/">前往拍吖吖H5版</a>
-                        <span >此按钮将链接至：https://m.paiyy.com.cn/</span>
+                        <a href="https://m.paiyy.com.cn/" target="_blank">前往拍吖吖H5版</a>
+                        <span>此按钮将链接至：https://m.paiyy.com.cn/</span>
                     </div>
                 </div>
 
@@ -134,7 +132,7 @@
     <!--<div value="1 0"></div>-->
     <!--<div id="page" class="page_div"></div>-->
     <!--</div>-->
-    <div id="footer" style="margin-top: 100px">
+    <div id="footer" style="margin-top: 100px;padding-bottom: 26px">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
@@ -142,7 +140,7 @@
                         <img src="image/index/icon_hezuo@2x.png" alt="">
                     </div>
                     <div class="hezuo_item">
-                        <!--<img src="image/index/icon_hezuoimg@2x.png" alt="">-->
+                        <!--<img src="image/index/icon_hezuoimg@2x2.png" alt="">-->
                     </div>
 
                     <div class="beian_info">
@@ -151,10 +149,14 @@
                         <span>客户热线：400-027-1888</span>
                         <span>联系电话：400-029-8000</span>
                     </div>
-                    <div>
-                        <span>拍吖吖公安机关备案号33010802009377</span>
-                        <img src="image/index/icon_beian@2x.png" alt="">
-                    </div>
+                    <a target="_blank"
+                       href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33010802009377"
+                       style="display:inline-block;text-decoration:none;height:20px;line-height:20px;">
+                        <div class="link_gongan">
+                            <span>拍吖吖公安机关备案号33010802009377</span>
+                            <img src="image/index/icon_beian@2x.png" alt="">
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -170,10 +172,10 @@
         if ((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))) {
             /*window.location.href="你的手机版地址";*/
             // alert("mobile")
-            $('.about_content img').attr('src','image/index/icon_img@2x.png')
+            $('.about_content img').attr('src', 'image/index/icon_img@2x.png')
             $('.about_content img').css({
-                'marginTop':'22px',
-                'marginBottom':'14px'
+                'marginTop': '22px',
+                'marginBottom': '14px'
             })
         }
         else {
@@ -181,7 +183,17 @@
             // alert("pc")
         }
     }
+    $('.nav_bar_item').mouseenter(function(){
+        $(this).css({
+            'background':'rgba(0,0,0,0.06)'
+        })
+    })
 
+    $('.nav_bar_item').mouseleave(function(){
+        $(this).css({
+            'background':'rgba(0,0,0,0)'
+        })
+    })
     goPAGE();
 </script>
 </body>
