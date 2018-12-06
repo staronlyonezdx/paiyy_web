@@ -149,16 +149,16 @@
     <!--<div value="1 0"></div>-->
     <!--<div id="page" class="page_div"></div>-->
     <!--</div>-->
-    <div id="footer" style="margin-top: 200px;padding-bottom: 26px">
+    <div id="footer" style="margin-top: 350px;padding-bottom: 26px">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
-                    <div class="hezuo">
-                        <img src="image/index/icon_hezuo@2x.png" alt="">
-                    </div>
-                    <div class="hezuo_item">
-                        <img src="image/index/icon_hezuoimg@2x1.png" alt="">
-                    </div>
+                    <!--<div class="hezuo">-->
+                        <!--<img src="image/index/icon_hezuo@2x.png" alt="">-->
+                    <!--</div>-->
+                    <!--<div class="hezuo_item">-->
+                        <!--<img src="image/index/icon_hezuoimg@2x1.png" alt="">-->
+                    <!--</div>-->
 
                     <div class="beian_info">
                         <span>浙江智胜电子商务有限公司版权所有</span>
@@ -207,19 +207,16 @@
             /*window.location.href="你的手机版地址";*/
             // alert("mobile")
 
-            $('.hezuo_item img').attr('src','image/index/icon_hezuo@2x1.png')
-
+            // $('.hezuo_item img').attr('src','image/index/icon_hezuo@2x1.png')
+$('#footer').css('marginTop','100px');
 
         }
         else {
 
             /*window.location.href="你的电脑版地址";    */
             // alert("pc")
-            // $('.nav_bar_item').css({
-            //     'width':'120px',
-            //     'height':'80px'
-            // })
-            $('.hezuo_item img').attr('src','image/index/icon_hezuoimg@2x1.png')
+
+            // $('.hezuo_item img').attr('src','image/index/icon_hezuoimg@2x1.png')
         }
     }
     goPAGE();
